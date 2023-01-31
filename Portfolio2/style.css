@@ -1,0 +1,165 @@
+html{
+    color: black;
+    cursor: pointer;
+}
+body{
+    animation-name: backgroundImage;
+    animation-duration: 15s;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-play-state: running;
+}
+.header{
+   background-color: black; 
+   display: flex;
+   flex-direction: row;
+   position: fixed;
+   z-index: 1;
+   width: 100%;
+   justify-content: end;
+   margin-top: -80px;
+}
+h1
+{
+    color:green;
+    text-align: center;
+}
+.logo{
+    color:brown;
+    justify-content: start;
+    font-size: 35px;
+    position:absolute;
+    margin-left: -620px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+}
+.navbar{
+    display: flex;
+    margin-left: 200px;
+}
+.nav{
+    list-style: none;
+    display: flex;
+}
+.menu{
+    font-size: 30px;
+    margin: 0 30px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu:hover{
+    background:rgb(201, 11, 201);
+    border-radius: 3px;
+}
+.homeContent1{
+    margin-top: 80px;
+    margin-left: 40px;
+    color:rgb(36, 14, 231)
+}
+.about{
+    color: rgb(95, 228, 47);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.myprofile img{
+    height: 300px;
+    width: auto;
+    border-radius: 3px;
+}
+.myprofile{
+    margin-left: 600px;
+}
+.projects{
+    display: flex;
+    position: relative;
+    margin: 0 30px;
+    padding: 7px 7px;
+    justify-content: space-evenly;
+    
+}
+.cap1{
+    position: relative;
+    height: 200px;
+    width: 385px;
+    text-align: center;
+    font-size: x-large;
+    opacity: 0;
+    margin-top: -35px;
+}
+.cap2{
+    position: relative;
+    height: 200px;
+    width: 360px;
+    text-align: center;
+    font-size: x-large;
+    opacity:0;
+    margin-top: -35px;
+}
+.cap3{
+    position: relative;
+    height: 200px;
+    width: 385px;
+    text-align: center;
+    font-size: x-large;
+    opacity: 0;
+    margin-top: -35px;
+}
+.sample1 img{
+    position: absolute;
+    width: 385px;
+    height: 200px;
+    margin-right: 5px;
+
+}.sample2 img{
+    position: absolute;
+    width: 385;
+    height: 200px;
+    margin-right: 5px;
+
+}
+.sample3 img{
+    position: absolute;
+    width: 385px;
+    height: 200px;
+    margin-right: 5px;
+
+}
+.cap1:hover{
+    background: plum;
+    border-radius: 2px;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+.cap2:hover{
+    background: plum;
+    border-radius: 2px;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+.cap3:hover{
+    background: plum;
+    border-radius: 2px;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+."#ContactMe"{
+    color: rgb(5, 5, 253);
+    font-size: 20px;
+    text-align: right;
+    margin-right: 40px;
+}
+.footer{
+    margin-right: 20px;
+    background-color:transparent;
+}
+.more{
+    color: rgb(9, 75, 25);
+    background-color: chocolate;
+    width: 100%;
+    margin-right:5px;
+}
+
+

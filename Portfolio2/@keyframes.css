@@ -1,0 +1,13 @@
+@keyframes backgroundImage{
+    0%{
+        background-image:  url('media/images.jpeg');
+    }
+    50%{
+        background-image: url('media/images\ \(1\).jpeg');
+
+     }
+    100%{
+        background-image: url('media/images\ \(2\).jpeg');
+    }
+
+}
